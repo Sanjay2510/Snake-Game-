@@ -1,0 +1,12 @@
+if(x_pos.get(0)<0 || y_pos.get(0)<0 || x_pos.get(0)>wdt|| y_pos.get(0)>hgt)       /1. When our snake touches the border:
+{
+gamestatus=true;
+}
+
+for(int i=1;i<x_pos.size();i++)                                                  /1. When our snake touches itself:
+{
+if(x_pos.get(0)==x_pos.get(i) && y_pos.get(0)==y_pos.get(i))
+gamestatus=true;
+}
+
+
