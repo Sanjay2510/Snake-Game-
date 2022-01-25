@@ -1,0 +1,6 @@
+
+void setup() // for defining initial properties
+{
+size(300,300);
+background(0);
+}
