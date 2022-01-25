@@ -1,0 +1,6 @@
+textAlign(LEFT);    //alignment        /Positioning our scoreboard
+textSize(25);      // position
+fill(255);
+text("Score:" + x_pos.size(),0,20);
+
+
