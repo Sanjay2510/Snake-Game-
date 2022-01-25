@@ -1,0 +1,14 @@
+ArrayList<Integer> x_pos = new ArrayList<Integer>(); 
+ArrayList<Integer> y_pos = new ArrayList<Integer>();
+int height=24,width=24; // window
+int block = 15;
+void setup(){
+x_pos.add(4); // initial position
+y_pos.add(15);
+} 
+void draw(){
+fill(255);
+for(int i=0;i<x_pos.size();i++)
+rect(x_pos.get(i)*block, y_pos.get(i)*block , block,block);
+}
+
