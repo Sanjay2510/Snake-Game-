@@ -1,0 +1,14 @@
+fill(222, 9, 12);
+textAlign(CENTER);
+textSize(30);
+text("Game Over \n Score: " + x_pos.size() + "\n Press Enter", 500/2,500/2);
+if(keyCode ==ENTER)
+{
+x_pos.clear();
+y_pos.clear();
+x_pos.add(4);
+y_pos.add(15);
+dir =2;
+speed=10;
+gamestatus = false;
+}
